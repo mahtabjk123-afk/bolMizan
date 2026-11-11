@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BolMizan | قانونی ڈیجیٹل صوتی کھاتہ اور بین الاقوامی مالیاتی نظام</title>
+    <meta name="description" content="BolMizan (بول میزان): آف لائن اور آن لائن خودکار صوتی کھاتہ، قرآن 2:282 کرپٹوگرافک معاہدات، اسٹیٹ بینک راست (Raast)، IBAN اور ISO 20022 بین الاقوامی ادائیگی و قانونی ریکارڈ سسٹم۔" />
+    <meta property="og:title" content="BolMizan - قانونی و صوتی کھاتہ نظام" />
+    <meta property="og:description" content="100% آف لائن اور آن لائن محفوظ، پرائیویسی شیلڈ، راست اور بین الاقوامی بینکنگ مطابقت کے ساتھ قانونی ڈیجیٹل کھاتہ۔" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23047857'/%3E%3Cstop offset='100%25' stop-color='%23064e3b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='24' fill='url(%23g)'/%3E%3Cpath d='M50 16 L80 32 L80 64 L50 84 L20 64 L20 32 Z' fill='none' stroke='%23f59e0b' stroke-width='4'/%3E%3Ccircle cx='50' cy='48' r='12' fill='%23ffffff'/%3E%3Cpath d='M35 48 H65 M50 34 V62 M32 58 L42 58 M58 58 L68 58' stroke='%23064e3b' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#047857" />
+  </head>
+  <body class="bg-emerald-50/30 text-slate-900 font-sans antialiased selection:bg-emerald-700 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>
+

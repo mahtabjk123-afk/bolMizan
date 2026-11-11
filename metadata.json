@@ -1,0 +1,6 @@
+{
+  "name": "MizanPay & Bol-Khata Ultimate OS",
+  "description": "Humanitarian Fintech & Enterprise Ledger OS with Quran 2:282 SHA-256 cryptographic contracts, multi-language voice-to-hisab, empathy grace extensions, debt forgiveness (Sadqah-e-Jariyah), Amanat trust scoring, inventory leakage audit, and 2.5% Zakat calculator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
